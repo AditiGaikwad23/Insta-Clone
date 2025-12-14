@@ -1,0 +1,73 @@
+.signup {
+  margin-top:2%;
+  min-height: 100vh;
+  background-color:rgb(12, 16, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+  width: 280px;
+  background-color: rgb(12, 16, 20);
+  border: 1px solid #262626;
+  padding: 40px 30px;
+  text-align: center;
+  padding:5%;
+}
+
+.signUpLogo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.loginPara {
+  color: #a8a8a8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.fb-btn {
+  width: 100%;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.form-container input {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 10px;
+  background-color: #121212;
+  border: 1px solid #262626;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+}
+
+.form-container input::placeholder {
+  color: #a8a8a8;
+}
+
+.info-text {
+  font-size: 11px;
+  color: #a8a8a8;
+  margin: 10px 0;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #4a5dfc;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
